@@ -1,0 +1,57 @@
+body{
+    background-color : #f0f0f0;
+    font-family : Arial, sans-serif;
+    color : #333;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: #01264f;
+    padding: 10px 20px;
+    color: white;
+}
+nav li {
+    display: inline;
+    margin-right: 20px;
+
+    text-align: center;
+    width: 100%;
+
+}
+nav li a{
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+nav li a:hover {
+    background-color: #014f8c;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+nav::scroll-marker {
+    background-color: #014f8c;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.welcome{
+    background-image: url('learn.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: block;
+    float:right;
+}
+.login{
+    display: block;
+    float: right;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+.main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
